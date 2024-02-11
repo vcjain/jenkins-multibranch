@@ -12,7 +12,7 @@ pipeline{
                 branch "feature/*"
             }
             steps{
-                echo 'Executing only for branch features'
+                echo 'Executing only for branch for features '
             }
         }
         stage('PR'){
