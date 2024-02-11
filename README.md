@@ -1,4 +1,4 @@
-# Multibranch Pipeline  
+# Multibranch Pipeline   
 
 The Multibranch Pipeline project type enables you to implement different Jenkinsfiles for different branches of the same project. In a Multibranch Pipeline project, Jenkins automatically discovers, manages and executes Pipelines for branches which contain a Jenkinsfile in source control.
 
