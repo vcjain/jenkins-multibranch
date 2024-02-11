@@ -1,17 +1,28 @@
 pipeline{
     agent any
     stages{
-        stage('Clone'){
+        stage('Build'){
             steps{
-                echo 'Clone'
+                echo 'Executing Build'
             }
         
         }
-        stage('Compile'){
-            steps{
-                echo 'Clone'
+        stage('feature'){
+            when{
+                branch "feature/*"
             }
-        
+            steps{
+                echo 'Executing only for branch features'
+            }
         }
+        stage('PR'){
+            when{
+                branch "PR-*"
+            }
+            steps{
+                echo 'Executing only for PRs'
+            }
+        }
+        
     }
 }
