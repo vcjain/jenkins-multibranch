@@ -5,7 +5,7 @@ The Multibranch Pipeline project type enables you to implement different Jenkins
 ## References:
 https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-admin-guide/github-app-auth#_generating_a_private_key_for_authenticating_to_the_github_app
 
-## Setup
+## Setup yes
 
 GitHub App authentication can be used with Multibranch Pipeline jobs. It is not available for regular Pipeline or Freestyle jobs.
 
