@@ -1,4 +1,4 @@
-# Multibranch Pipeline   
+# Multibranch Pipeline pipe  
 
 The Multibranch Pipeline project type enables you to implement different Jenkinsfiles for different branches of the same project. In a Multibranch Pipeline project, Jenkins automatically discovers, manages and executes Pipelines for branches which contain a Jenkinsfile in source control.
 
@@ -19,7 +19,7 @@ Setting up GitHub App authentication requires several steps in both GitHub and J
 
 Afterwards, complete the following steps in Jenkins:
 
-    Add the Jenkins credential
+    Add the Jenkins credentials
 
     Configure the GitHub Organization
 
